@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
         }
         public static void main(String[] args) {
-            boolean regexCheck = isValid("^[1-9]{1}[\\d]{5}$","530025B");
+            boolean regexCheck = isValid("^[1-9]{1}[0-9]{2}\\s{0,1}?[0-9]{3}$","530 028");
             System.out.println(regexCheck);
         }
     }
